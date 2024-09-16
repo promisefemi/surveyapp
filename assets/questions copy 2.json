@@ -1,0 +1,461 @@
+[
+  {
+    "name": "Demographics & Financial Profile",
+    "sectionid": 1,
+    "questions": [
+      {
+        "number": 1,
+        "text": "What is your age?",
+        "compulsory": true,
+        "singleChoice": true,
+        "options": ["Under 18", "18-24", "25-34", "35-44", "45 and above"]
+      },
+      {
+        "number": 2,
+        "text": "What is your gender?",
+        "compulsory": true,
+        "singleChoice": true,
+        "options": ["Male", "Female", "Other"]
+      },
+      {
+        "number": 3,
+        "text": "Where do you live?",
+        "compulsory": true,
+        "singleChoice": true,
+        "options": ["Urban area", "Rural area", "Semi-urban area"]
+      },
+      {
+        "number": 4,
+        "text": "What is your employment status?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": [
+          "Employed (full-time)",
+          "Employed (part-time)",
+          "Self-employed",
+          "Business owner",
+          "Unemployed"
+        ]
+      },
+      {
+        "number": 5,
+        "text": "What is your family size?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": ["1 (I live alone)", "2-3", "4-5", "More than 5"]
+      },
+      {
+        "number": 6,
+        "text": "Are you the primary or sole breadwinner in your household?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": [
+          "Yes, sole breadwinner",
+          "I share responsibilities with a partner",
+          "No, someone else is the primary breadwinner"
+        ]
+      },
+      {
+        "number": 7,
+        "text": "What is your average monthly income?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": [
+          "Below ₦50,000",
+          "₦50,000 - ₦150,000",
+          "₦150,000 - ₦300,000",
+          "₦300,000 - ₦500,000",
+          "Above ₦500,000"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Digital Payment Behavior",
+    "sectionid": 2,
+    "questions": [
+      {
+        "number": 8,
+        "text": "Do you use digital payment platforms (e.g., OPay, MoniePoint, PalmPay, etc.)?",
+        "compulsory": true,
+        "singleChoice": true,
+        "options": ["Yes", "No", "Not aware of them"]
+      },
+      {
+        "number": 9,
+        "text": "Which payment platforms do you use?",
+        "compulsory": true,
+        "singleChoice": false,
+        "options": ["OPay", "MoniePoint", "PalmPay", "Others (Please specify)"]
+      },
+      {
+        "number": 10,
+        "text": "How often do you use these platforms?",
+        "compulsory": true,
+        "singleChoice": true,
+        "options": ["Daily", "Weekly", "Monthly", "Occasionally", "Rarely"]
+      },
+      {
+        "number": 11,
+        "text": "What are your primary reasons for using digital payments?",
+        "compulsory": true,
+        "singleChoice": false,
+        "options": [
+          "Sending money to family/friends",
+          "Paying for goods and services",
+          "Paying bills (electricity, water, etc.)",
+          "Buying airtime/data",
+          "Receiving payments",
+          "Accessing loans",
+          "Others (Please specify)"
+        ]
+      },
+      {
+        "number": 12,
+        "text": "What do you like most about the digital payment platforms you use?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": [
+          "Convenience",
+          "Low transaction fees",
+          "Quick transactions",
+          "Access to additional services (loans, savings, etc.)",
+          "Security"
+        ]
+      },
+      {
+        "number": 13,
+        "text": "What frustrates you the most about using digital payment platforms?",
+        "compulsory": true,
+        "singleChoice": false,
+        "options": [
+          "Transaction failures",
+          "High transaction fees",
+          "Delayed refunds",
+          "Difficulty accessing services",
+          "Security concerns",
+          "Poor customer service",
+          "Limited merchant acceptance",
+          "Others (Please specify)"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Loan Experience",
+    "sectionid": 3,
+    "questions": [
+      {
+        "number": 14,
+        "text": "Have you ever taken a loan from a digital payment platform (e.g., OPay, MoniePoint, PalmPay)?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": ["Yes", "No"]
+      },
+      {
+        "number": 15,
+        "text": "If yes, from which platform did you take the loan?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": ["OPay", "MoniePoint", "PalmPay", "Others (Please specify)"]
+      },
+      {
+        "number": 16,
+        "text": "How was your loan experience?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": [
+          "Very positive",
+          "Somewhat positive",
+          "Neutral",
+          "Somewhat negative",
+          "Very negative"
+        ],
+        "additional": "(Please explain your answer)"
+      },
+      {
+        "number": 17,
+        "text": "What were the main challenges you faced with the loan process?",
+        "compulsory": false,
+        "singleChoice": false,
+        "options": [
+          "Complicated application process",
+          "Difficulty in meeting eligibility requirements",
+          "High interest rates",
+          "Hidden fees",
+          "Lack of repayment flexibility",
+          "Poor customer service during the loan process",
+          "Others (Please specify)"
+        ]
+      },
+      {
+        "number": 18,
+        "text": "How much loan amount do you think you would need if you were to take one?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": [
+          "Below ₦50,000",
+          "₦50,000 - ₦100,000",
+          "₦100,000 - ₦500,000",
+          "₦500,000 - ₦1,000,000",
+          "Above ₦1,000,000"
+        ]
+      },
+      {
+        "number": 19,
+        "text": "What would you primarily use the loan for?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": [
+          "Business capital",
+          "Emergency/medical expenses",
+          "Education",
+          "Home repairs or improvements",
+          "Paying off other debts",
+          "Buying goods or services",
+          "Others (Please specify)"
+        ]
+      },
+      {
+        "number": 20,
+        "text": "How do you typically repay loans?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": [
+          "Salary income",
+          "Business revenue",
+          "Borrowing from friends/family",
+          "Others (Please specify)"
+        ]
+      },
+      {
+        "number": 21,
+        "text": "What would you prefer as a repayment option?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": [
+          "Fixed monthly payments",
+          "Weekly payments",
+          "Pay when able (flexible payments)",
+          "Automatic deduction from wallet",
+          "Others (Please specify)"
+        ]
+      },
+      {
+        "number": 22,
+        "text": "What interest rate would you consider fair on a loan?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": ["Below 5%", "5% - 10%", "Above 10%"]
+      },
+      {
+        "number": 23,
+        "text": "What would make you more likely to take a loan from a digital platform?",
+        "compulsory": false,
+        "singleChoice": false,
+        "options": [
+          "Lower interest rates",
+          "Faster approval process",
+          "Transparent fees and terms",
+          "More flexible repayment plans",
+          "Higher loan amounts",
+          "Better customer support"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Security and Trust",
+    "sectionid": 4,
+    "questions": [
+      {
+        "number": 24,
+        "text": "How secure do you feel when using digital payment platforms?",
+        "compulsory": true,
+        "singleChoice": true,
+        "options": [
+          "Very secure",
+          "Somewhat secure",
+          "Neutral",
+          "Somewhat insecure",
+          "Very insecure"
+        ]
+      },
+      {
+        "number": 25,
+        "text": "What would make you feel more secure using digital payment platforms?",
+        "compulsory": true,
+        "singleChoice": false,
+        "options": [
+          "Two-factor authentication",
+          "Biometric security (fingerprint, face recognition)",
+          "Strong encryption",
+          "Better fraud prevention measures",
+          "Faster response to fraudulent activity",
+          "Clearer privacy policies",
+          "Insurance for lost or stolen funds"
+        ]
+      },
+      {
+        "number": 26,
+        "text": "Have you ever experienced any security issues or fraud while using digital payments?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": ["Yes", "No"]
+      },
+      {
+        "number": 27,
+        "text": "If yes, how was the issue resolved?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": [
+          "Quickly resolved",
+          "Took too long to resolve",
+          "Never resolved"
+        ],
+        "additional": "(Please explain your experience)"
+      }
+    ]
+  },
+  {
+    "name": "Product & Service Preferences",
+    "sectionid": 5,
+    "questions": [
+      {
+        "number": 28,
+        "text": "What features would you like to see added to digital payment platforms?",
+        "compulsory": true,
+        "singleChoice": false,
+        "options": [
+          "Better budgeting tools",
+          "Savings plans (fixed deposits, flexible savings)",
+          "Micro-investment options",
+          "More loan options",
+          "Insurance products",
+          "Credit scores",
+          "Cashback rewards on transactions",
+          "Merchant financing",
+          "International payment options",
+          "Peer-to-peer lending"
+        ]
+      },
+      {
+        "number": 29,
+        "text": "What is your biggest concern when using digital payment platforms?",
+        "compulsory": true,
+        "singleChoice": true,
+        "options": [
+          "Security",
+          "Transaction failures",
+          "High fees",
+          "Lack of transparency",
+          "Poor customer service",
+          "Others (Please specify)"
+        ]
+      },
+      {
+        "number": 30,
+        "text": "What services or features do you think OPay, MoniePoint, and PalmPay lack that you would like to see?",
+        "compulsory": false,
+        "singleChoice": true,
+        "openEnded": true
+      },
+      {
+        "number": 31,
+        "text": "What would encourage you to switch to a new fintech platform?",
+        "compulsory": true,
+        "singleChoice": false,
+        "options": [
+          "Lower fees",
+          "Better customer service",
+          "More secure transactions",
+          "More flexible loan offerings",
+          "Faster transactions",
+          "Additional features like investments or savings",
+          "Others (Please specify)"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Customer Support and Experience",
+    "sectionid": 6,
+    "questions": [
+      {
+        "number": 32,
+        "text": "How would you rate the customer service on your current fintech platform?",
+        "compulsory": true,
+        "singleChoice": true,
+        "options": ["Excellent", "Good", "Average", "Poor", "Very poor"]
+      },
+      {
+        "number": 33,
+        "text": "What specific improvements would you suggest for customer service?",
+        "compulsory": false,
+        "singleChoice": false,
+        "options": [
+          "Faster response times",
+          "More knowledgeable support agents",
+          "24/7 customer service availability",
+          "Better handling of complaints and issues",
+          "Automated support (chatbots, FAQs)",
+          "Others (Please specify)"
+        ]
+      },
+      {
+        "number": 34,
+        "text": "How often do you need to contact customer service?",
+        "compulsory": false,
+        "singleChoice": true,
+        "options": ["Never", "Rarely", "Sometimes", "Often", "Very frequently"]
+      },
+      {
+        "number": 35,
+        "text": "When contacting customer service, what channels do you prefer to use?",
+        "compulsory": true,
+        "singleChoice": false,
+        "options": [
+          "In-app chat",
+          "Phone support",
+          "Email support",
+          "Social media (Twitter, Facebook, etc.)",
+          "Chatbots",
+          "Others (Please specify)"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Competitor Insights",
+    "sectionid": 7,
+    "questions": [
+      {
+        "number": 36,
+        "text": "What competitor platforms do you feel offer better service than the one you currently use?",
+        "compulsory": false,
+        "singleChoice": false,
+        "options": [
+          "Paystack",
+          "Flutterwave",
+          "Kuda",
+          "Carbon",
+          "Others (Please specify)"
+        ]
+      },
+      {
+        "number": 37,
+        "text": "If you could change one thing about the current platform, what would it be?",
+        "compulsory": false,
+        "singleChoice": true,
+        "openEnded": true
+      },
+      {
+        "number": 38,
+        "text": "Any other comments or suggestions to help us build a better product?",
+        "compulsory": false,
+        "singleChoice": true,
+        "openEnded": true
+      }
+    ]
+  }
+]
