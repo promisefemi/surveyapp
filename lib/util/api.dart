@@ -70,6 +70,7 @@ class Api {
       var parsedUri = Uri.parse("$BaseUrl$uri");
       Map<String, String> headers = {'x-api-key': _apiKey};
       //  print(parsedUri);
+
       var response = await http.post(parsedUri, body: data, headers: headers);
       return _handleResponse(response);
     } catch (error) {
@@ -82,6 +83,34 @@ class Api {
     var response = await _post(
       "login",
       {'username': username, 'password': password},
+    );
+    if (response == null) {
+      return null;
+    }
+
+    return response as Map<String, dynamic>;
+  }
+
+  Future<Map<String, dynamic>?> submitQuestions(
+      String username, List<Map<String, dynamic>> data) async {
+    var encodedData = jsonEncode(data);
+    var response = await _post(
+      "submit-questions",
+      {'username': username, 'responses': encodedData},
+    );
+    if (response == null) {
+      return null;
+    }
+
+    return response as Map<String, dynamic>;
+  }
+
+  Future<Map<String, dynamic>?> getDashboard(String username) async {
+    var response = await _get(
+      "dashboard",
+      {
+        'username': username,
+      },
     );
     if (response == null) {
       return null;

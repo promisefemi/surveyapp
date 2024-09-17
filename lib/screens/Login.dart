@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:surveyapp/screens/Dashboard.dart';
 import 'package:surveyapp/util/api.dart';
 import 'package:surveyapp/screens/Form.dart';
 import 'package:surveyapp/util/shared_preference_helper.dart';
@@ -59,7 +60,7 @@ class _LoginState extends State<Login> {
       pref.setString(constant.apiKey, response['data']['apiKey']);
       pref.setMap(constant.userKey, response['data']['user']);
 
-      Navigator.pushNamed(context, FormPage.routeName);
+      Navigator.pushNamed(context, DashboardPage.routeName);
 
       return;
     } catch (e) {

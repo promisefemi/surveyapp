@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:surveyapp/screens/Dashboard.dart';
 import 'package:surveyapp/screens/Login.dart';
 import 'package:surveyapp/screens/Form.dart';
 import 'package:surveyapp/util/shared_preference_helper.dart';
@@ -30,9 +31,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         Login.routeName: (context) => const Login(),
-        FormPage.routeName: (context) => const FormPage()
+        FormPage.routeName: (context) => const FormPage(),
+        DashboardPage.routeName: (context) => const DashboardPage()
       },
-      initialRoute: userAPIKey == null ? Login.routeName : FormPage.routeName,
+      initialRoute:
+          userAPIKey == null ? Login.routeName : DashboardPage.routeName,
     );
   }
 }
