@@ -10,115 +10,112 @@
         "compulsory": true,
         "singleChoice": true,
         "options": [
-          { "label": "Under 18" },
-          { "label": "18-24" },
-          { "label": "25-34" },
-          { "label": "35-44" },
-          { "label": "45 and above" }
+          { "label": "Under 18", "score": 0 },
+          { "label": "18-24", "score": 2 },
+          { "label": "25-34", "score": 5 },
+          { "label": "35-44", "score": 4 },
+          { "label": "45 and above", "score": 3 }
         ]
       },
-
       {
-        "number": 3,
+        "number": 2,
         "text": "Where do you reside?",
         "compulsory": true,
         "singleChoice": true,
         "options": [
-          { "label": "Urban area" },
-          { "label": "Semi-urban area" },
-          { "label": "Rural area" }
+          { "label": "Urban area", "score": 5 },
+          { "label": "Semi-urban area", "score": 3 },
+          { "label": "Rural area", "score": 2 }
         ]
       },
       {
-        "number": 4,
+        "number": 3,
         "text": "What is your current employment status?",
         "compulsory": false,
         "singleChoice": true,
         "options": [
-          { "label": "Employed (full-time)" },
-          { "label": "Employed (part-time)" },
-          { "label": "Self-employed" },
-          { "label": "Business owner" },
-          { "label": "Unemployed" }
+          { "label": "Employed (full-time)", "score": 5 },
+          { "label": "Employed (part-time)", "score": 3 },
+          { "label": "Self-employed", "score": 4 },
+          { "label": "Business owner", "score": 5 },
+          { "label": "Unemployed", "score": 1 }
         ]
       },
-
       {
-        "number": 7,
+        "number": 4,
         "text": "What is your average monthly income?",
         "compulsory": false,
         "singleChoice": true,
         "options": [
-          { "label": "Below ₦50,000" },
-          { "label": "₦50,000 - ₦150,000" },
-          { "label": "₦150,000 - ₦300,000" },
-          { "label": "₦300,000 - ₦500,000" },
-          { "label": "Above ₦500,000" }
+          { "label": "Below ₦50,000", "score": 1 },
+          { "label": "₦50,000 - ₦150,000", "score": 3 },
+          { "label": "₦150,000 - ₦300,000", "score": 4 },
+          { "label": "₦300,000 - ₦500,000", "score": 5 },
+          { "label": "Above ₦500,000", "score": 5 }
         ]
       }
     ]
   },
-
   {
     "name": "Current Financial Behaviors",
     "description": "These questions help assess urgency, market size, and uniqueness of offer by understanding current usage and pain points.",
     "sectionid": 2,
     "questions": [
       {
-        "number": 9,
+        "number": 5,
         "text": "Which financial services do you currently use?",
         "compulsory": true,
         "singleChoice": false,
         "options": [
-          { "label": "Traditional banking services" },
+          { "label": "Traditional banking services", "score": 3 },
           {
-            "label": "Mobile money services (e.g., OPay, MoniePoint, PalmPay)"
+            "label": "Mobile money services (e.g., OPay, MoniePoint, PalmPay)",
+            "score": 5
           },
-          { "label": "Savings groups or cooperatives" },
-          { "label": "None of the above" }
+          { "label": "Savings groups or cooperatives", "score": 2 },
+          { "label": "None of the above", "score": 1 }
         ]
       },
       {
-        "number": 10,
+        "number": 6,
         "text": "How frequently do you use mobile money or digital payment services?",
         "compulsory": true,
         "singleChoice": true,
         "options": [
-          { "label": "Daily" },
-          { "label": "Weekly" },
-          { "label": "Monthly" },
-          { "label": "Rarely" },
-          { "label": "Never" }
+          { "label": "Daily", "score": 5 },
+          { "label": "Weekly", "score": 4 },
+          { "label": "Monthly", "score": 3 },
+          { "label": "Rarely", "score": 1 },
+          { "label": "Never", "score": 0 }
         ]
       },
       {
-        "number": 11,
+        "number": 7,
         "text": "What financial activities do you perform using these services?",
         "compulsory": true,
         "singleChoice": false,
         "options": [
-          { "label": "Sending/receiving money" },
-          { "label": "Paying bills" },
-          { "label": "Purchasing airtime/data" },
-          { "label": "Accessing loans" },
-          { "label": "Savings and investments" },
-          { "label": "None of the above" }
+          { "label": "Sending/receiving money", "score": 1 },
+          { "label": "Paying bills", "score": 1 },
+          { "label": "Purchasing airtime/data", "score": 1 },
+          { "label": "Accessing loans", "score": 1 },
+          { "label": "Savings and investments", "score": 1 },
+          { "label": "None of the above", "score": 0 }
         ]
       },
-
       {
-        "number": 13,
+        "number": 8,
         "text": "What challenges have you faced with your current financial service providers?",
         "compulsory": true,
         "singleChoice": false,
         "options": [
-          { "label": "High transaction fees" },
-          { "label": "Slow transaction processing" },
-          { "label": "Limited access to loans" },
-          { "label": "Poor customer service" },
-          { "label": "Security concerns" },
-          { "label": "Lack of features/services" },
-          { "label": "None of the above" }
+          { "label": "High transaction fees", "score": 2 },
+          { "label": "Slow transaction processing", "score": 2 },
+          { "label": "Limited access to loans", "score": 3 },
+          { "label": "Poor customer service", "score": 2 },
+          { "label": "Security concerns", "score": 3 },
+          { "label": "Lack of features/services", "score": 3 },
+          { "label": "None of the above", "score": 0 }
         ]
       }
     ]
@@ -129,31 +126,31 @@
     "sectionid": 3,
     "questions": [
       {
-        "number": 14,
+        "number": 9,
         "text": "How important is access to efficient financial services for you?",
         "compulsory": true,
         "singleChoice": true,
         "options": [
-          { "label": "Extremely important" },
-          { "label": "Very important" },
-          { "label": "Moderately important" },
-          { "label": "Slightly important" },
-          { "label": "Not important" }
+          { "label": "Extremely important", "score": 5 },
+          { "label": "Very important", "score": 4 },
+          { "label": "Moderately important", "score": 3 },
+          { "label": "Slightly important", "score": 2 },
+          { "label": "Not important", "score": 0 }
         ]
       },
       {
-        "number": 15,
+        "number": 10,
         "text": "Which of the following services do you urgently need or wish to improve?",
         "compulsory": true,
         "singleChoice": false,
         "options": [
-          { "label": "Faster money transfers" },
-          { "label": "Access to affordable loans" },
-          { "label": "Lower transaction fees" },
-          { "label": "Better customer support" },
-          { "label": "Enhanced security features" },
-          { "label": "More savings and investment options" },
-          { "label": "Others (Please specify)" }
+          { "label": "Faster money transfers", "score": 2 },
+          { "label": "Access to affordable loans", "score": 2 },
+          { "label": "Lower transaction fees", "score": 2 },
+          { "label": "Better customer support", "score": 2 },
+          { "label": "Enhanced security features", "score": 2 },
+          { "label": "More savings and investment options", "score": 2 },
+          { "label": "Others (Please specify)", "score": 2 }
         ]
       }
     ]
@@ -164,35 +161,39 @@
     "sectionid": 4,
     "questions": [
       {
-        "number": 24,
+        "number": 11,
         "text": "What is the maximum transaction fee you are willing to pay for instant money transfers?",
         "compulsory": true,
         "singleChoice": true,
         "options": [
-          { "label": "Less than ₦50" },
-          { "label": "₦50 - ₦100" },
-          { "label": "₦100 - ₦200" },
-          { "label": "More than ₦200" }
+          { "label": "Less than ₦50", "score": 5 },
+          { "label": "₦50 - ₦100", "score": 4 },
+          { "label": "₦100 - ₦200", "score": 2 },
+          { "label": "More than ₦200", "score": 1 }
         ]
       },
       {
-        "number": 26,
+        "number": 12,
         "text": "What is the highest interest rate you are willing to accept on a loan?",
         "compulsory": false,
         "singleChoice": true,
         "options": [
-          { "label": "Below 5%" },
-          { "label": "5% - 10%" },
-          { "label": "10% - 15%" },
-          { "label": "Above 15%" }
+          { "label": "Below 5%", "score": 5 },
+          { "label": "5% - 10%", "score": 4 },
+          { "label": "10% - 15%", "score": 2 },
+          { "label": "Above 15%", "score": 1 }
         ]
       },
       {
-        "number": 27,
+        "number": 13,
         "text": "Would you be willing to pay a small monthly fee for premium features (e.g., higher transaction limits, personalized support)?",
         "compulsory": false,
         "singleChoice": true,
-        "options": [{ "label": "Yes" }, { "label": "No" }, { "label": "Maybe" }]
+        "options": [
+          { "label": "Yes", "score": 5 },
+          { "label": "No", "score": 1 },
+          { "label": "Maybe", "score": 3 }
+        ]
       }
     ]
   },
@@ -202,57 +203,57 @@
     "sectionid": 5,
     "questions": [
       {
-        "number": 28,
+        "number": 14,
         "text": "How did you first hear about your current financial service provider?",
         "compulsory": true,
         "singleChoice": true,
         "options": [
-          { "label": "Social media" },
-          { "label": "Friends or family" },
-          { "label": "Advertisements" },
-          { "label": "Internet search" },
-          { "label": "Events or promotions" },
-          { "label": "Other (please specify)" }
+          { "label": "Social media", "score": 4 },
+          { "label": "Friends or family", "score": 5 },
+          { "label": "Advertisements", "score": 3 },
+          { "label": "Internet search", "score": 2 },
+          { "label": "Events or promotions", "score": 3 },
+          { "label": "Other (please specify)", "score": 1 }
         ]
       },
       {
-        "number": 29,
+        "number": 15,
         "text": "How easy was it to sign up and start using the service?",
         "compulsory": true,
         "singleChoice": true,
         "options": [
-          { "label": "Very easy" },
-          { "label": "Easy" },
-          { "label": "Neutral" },
-          { "label": "Difficult" },
-          { "label": "Very difficult" }
+          { "label": "Very easy", "score": 5 },
+          { "label": "Easy", "score": 4 },
+          { "label": "Neutral", "score": 3 },
+          { "label": "Difficult", "score": 2 },
+          { "label": "Very difficult", "score": 1 }
         ]
       },
       {
-        "number": 31,
+        "number": 16,
         "text": "What factors influence your decision to choose a financial service provider?",
         "compulsory": true,
         "singleChoice": false,
         "options": [
-          { "label": "Ease of registration" },
-          { "label": "Low fees and charges" },
-          { "label": "Variety of services offered" },
-          { "label": "Brand reputation" },
-          { "label": "Recommendations from others" },
-          { "label": "Promotional offers" },
-          { "label": "Security features" }
+          { "label": "Ease of registration", "score": 2 },
+          { "label": "Low fees and charges", "score": 2 },
+          { "label": "Variety of services offered", "score": 2 },
+          { "label": "Brand reputation", "score": 2 },
+          { "label": "Recommendations from others", "score": 2 },
+          { "label": "Promotional offers", "score": 2 },
+          { "label": "Security features", "score": 2 }
         ]
       },
       {
-        "number": 47,
+        "number": 17,
         "text": "How much time are you willing to spend setting up a new financial service?",
         "compulsory": false,
         "singleChoice": true,
         "options": [
-          { "label": "Less than 5 minutes" },
-          { "label": "5-10 minutes" },
-          { "label": "10-20 minutes" },
-          { "label": "More than 20 minutes" }
+          { "label": "Less than 5 minutes", "score": 5 },
+          { "label": "5-10 minutes", "score": 4 },
+          { "label": "10-20 minutes", "score": 2 },
+          { "label": "More than 20 minutes", "score": 1 }
         ]
       }
     ]
@@ -263,116 +264,121 @@
     "sectionid": 6,
     "questions": [
       {
-        "number": 32,
+        "number": 18,
         "text": "What features or services do you wish were available that are not currently offered by your financial service providers?",
         "compulsory": true,
         "openEnded": true
       },
       {
-        "number": 33,
+        "number": 19,
         "text": "How likely are you to use instant loan approval with flexible repayment options, if offered?",
         "compulsory": true,
         "singleChoice": true,
         "options": [
-          { "label": "Very likely" },
-          { "label": "Somewhat likely" },
-          { "label": "Not likely" }
+          { "label": "Very likely", "score": 5 },
+          { "label": "Somewhat likely", "score": 3 },
+          { "label": "Not likely", "score": 1 }
         ]
       },
       {
-        "number": 33,
+        "number": 20,
         "text": "How likely are you to use a personalized financial advice and budgeting tools, if offered?",
         "compulsory": true,
         "singleChoice": true,
         "options": [
-          { "label": "Very likely" },
-          { "label": "Somewhat likely" },
-          { "label": "Not likely" }
+          { "label": "Very likely", "score": 5 },
+          { "label": "Somewhat likely", "score": 3 },
+          { "label": "Not likely", "score": 1 }
         ]
       },
       {
-        "number": 33,
+        "number": 21,
         "text": "How likely are you to use investment opportunities within the app, if offered?",
         "compulsory": true,
         "singleChoice": true,
         "options": [
-          { "label": "Very likely" },
-          { "label": "Somewhat likely" },
-          { "label": "Not likely" }
+          { "label": "Very likely", "score": 5 },
+          { "label": "Somewhat likely", "score": 3 },
+          { "label": "Not likely", "score": 1 }
         ]
       },
       {
-        "number": 33,
+        "number": 22,
         "text": "How likely are you to use multi-language support including local dialects, if offered?",
         "compulsory": true,
         "singleChoice": true,
         "options": [
-          { "label": "Very likely" },
-          { "label": "Somewhat likely" },
-          { "label": "Not likely" }
+          { "label": "Very likely", "score": 5 },
+          { "label": "Somewhat likely", "score": 3 },
+          { "label": "Not likely", "score": 1 }
         ]
       },
       {
-        "number": 33,
+        "number": 23,
         "text": "How likely are you to use integration with international payment systems, if offered?",
         "compulsory": true,
         "singleChoice": true,
         "options": [
-          { "label": "Very likely" },
-          { "label": "Somewhat likely" },
-          { "label": "Not likely" }
+          { "label": "Very likely", "score": 5 },
+          { "label": "Somewhat likely", "score": 3 },
+          { "label": "Not likely", "score": 1 }
         ]
       }
     ]
   },
+
   {
     "name": "Upsell Potential",
     "description": "Assessing the potential for secondary related offers.",
     "sectionid": 7,
     "questions": [
       {
-        "number": 36,
+        "number": 24,
         "text": "Which additional services would you be interested in?",
         "compulsory": true,
         "singleChoice": false,
         "options": [
-          { "label": "Micro-insurance products" },
-          { "label": "Educational loans" },
-          { "label": "Business training and support" },
-          { "label": "Group savings schemes" },
-          { "label": "Travel and ticketing services" },
-          { "label": "None of the above" }
+          { "label": "Micro-insurance products", "score": 2 },
+          { "label": "Educational loans", "score": 2 },
+          { "label": "Business training and support", "score": 2 },
+          { "label": "Group savings schemes", "score": 2 },
+          { "label": "Travel and ticketing services", "score": 2 },
+          { "label": "None of the above", "score": 0 }
         ]
       },
       {
-        "number": 36,
+        "number": 25,
         "text": "Would you consider purchasing bundles or packages that include multiple services at a discounted rate?",
         "compulsory": false,
         "singleChoice": true,
-        "options": [{ "label": "Yes" }, { "label": "No" }, { "label": "Maybe" }]
+        "options": [
+          { "label": "Yes", "score": 5 },
+          { "label": "No", "score": 1 },
+          { "label": "Maybe", "score": 3 }
+        ]
       }
     ]
   },
   {
     "name": "Evergreen Potential",
     "description": "Understanding the need for ongoing development and evergreen potential.",
-    "sectionid": 7,
+    "sectionid": 8,
     "questions": [
       {
-        "number": 36,
+        "number": 26,
         "text": "How important is it for you that a financial app regularly updates with new features and improvements?",
         "compulsory": true,
         "singleChoice": true,
         "options": [
-          { "label": "Extremely important" },
-          { "label": "Very important" },
-          { "label": "Moderately important" },
-          { "label": "Slightly important" },
-          { "label": "Not important" }
+          { "label": "Extremely important", "score": 5 },
+          { "label": "Very important", "score": 4 },
+          { "label": "Moderately important", "score": 3 },
+          { "label": "Slightly important", "score": 2 },
+          { "label": "Not important", "score": 1 }
         ]
       },
       {
-        "number": 36,
+        "number": 27,
         "text": "What long-term improvements would you like to see in your financial service providers?",
         "compulsory": false,
         "openEnded": true
@@ -382,43 +388,43 @@
   {
     "name": "Customer Loyalty and Retention",
     "description": "Evaluating customer stickiness and factors affecting cost of customer acquisition and evergreen potential.",
-    "sectionid": 7,
+    "sectionid": 9,
     "questions": [
       {
-        "number": 36,
+        "number": 28,
         "text": "How likely are you to switch to a new financial service provider offering better services?",
         "compulsory": true,
         "singleChoice": true,
         "options": [
-          { "label": "Very likely" },
-          { "label": "Somewhat likely" },
-          { "label": "Not likely" }
+          { "label": "Very likely", "score": 5 },
+          { "label": "Somewhat likely", "score": 3 },
+          { "label": "Not likely", "score": 1 }
         ]
       },
       {
-        "number": 36,
+        "number": 29,
         "text": "What would motivate you to stay with your current provider?",
         "compulsory": true,
         "singleChoice": false,
         "options": [
-          { "label": "Consistent service quality" },
-          { "label": "Loyalty rewards" },
-          { "label": "Exclusive features" },
-          { "label": "Excellent customer service" },
-          { "label": "Lower fees over time" },
-          { "label": "Community engagement programs" }
+          { "label": "Consistent service quality", "score": 2 },
+          { "label": "Loyalty rewards", "score": 2 },
+          { "label": "Exclusive features", "score": 2 },
+          { "label": "Excellent customer service", "score": 2 },
+          { "label": "Lower fees over time", "score": 2 },
+          { "label": "Community engagement programs", "score": 2 }
         ]
       }
     ]
   },
   {
-    "name": ": Final Feedback",
+    "name": "Final Feedback",
     "description": "Gathering any additional insights that could influence multiple evaluation areas.",
-    "sectionid": 7,
+    "sectionid": 10,
     "questions": [
       {
-        "number": 36,
-        "text": " Do you have any suggestions or comments that could help us build a better financial service for you?",
+        "number": 30,
+        "text": "Do you have any suggestions or comments that could help us build a better financial service for you?",
         "compulsory": false,
         "openEnded": true
       }
